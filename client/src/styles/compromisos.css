@@ -1,0 +1,79 @@
+.input-select {
+  position: relative;
+  display: flex;
+  width: 108%;
+  padding: 1rem;
+  height: 4rem;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+
+.grupo{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.grupo a h3{
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.return{
+  padding: 1.4rem;
+  background-color: #FFF;
+  border-radius: .4rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #003865;
+}
+
+.return i{
+  font-size: 2rem;
+}
+
+.input-select:hover::after {
+  color: #fff;
+}
+
+.input-select select {
+  appearance: none;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  flex: 1;
+  padding: 0.6rem;
+  color: black;
+  background-color: #fff;
+  background-image: none;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-actions {
+  border: none;
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: #003865;
+}
+
+.trash {
+  background-color: #eb4747;
+}
+
+.btn-actions i {
+  color: #fff;
+  font-size: 1.2rem;
+}
